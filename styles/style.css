@@ -24,17 +24,23 @@
 .Publicity { grid-area: Publicity; }
 
 body {
-    font-family: Helvetica, Geneva, Arial,
+  font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif;
-    color: black;
-  font-size:14px}
-    background-color: #ffffff }
-  h1 {
-    font-family: Helvetica, Geneva, Arial,
+  color: black;
+  font-size:14px;
+  background-color: #ffffff }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif;
-    font-size: 40px;
-    line-height: 0pt}
-  h2 {
-    font-family: Helvetica, Geneva, Arial,
+  font-size: 40px;
+  line-height: 0pt }
+h2 {
+  font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif;
-    font-size:15px }
+  font-size:15px }
+footer {
+  font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
+  color: black;
+  font-size:13px; }
+
