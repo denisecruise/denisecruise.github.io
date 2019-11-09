@@ -1,50 +1,42 @@
-/*  SECTIONS  */
-.section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
+
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-/*  COLUMN SETUP  */
-.col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
-}
-.col:first-child { margin-left: 0; }
 
-/*  GROUPING  */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
-/*  GRID OF SIX  */
-.span_6_of_6 {
-	width: 100%;
+h1 {
+  font-size: 60px;
+  text-align: center;
 }
 
-.span_5_of_6 {
-  	width: 86.65%;
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
 }
 
-.span_4_of_6 {
-  	width: 73.32%;
+
+html {
+  background-color: #f5f5dc;
 }
 
-.span_3_of_6 {
-  	width: 59.99%;
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
 }
 
-.span_2_of_6 {
-  	width: 46.66%;
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
 }
 
-.span_1_of_6 {
-  	width: 33.33%;
-}
-
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
-	.span_1_of_6, .span_2_of_6, .span_3_of_6, .span_4_of_6, .span_5_of_6, .span_6_of_6 { width: 100%; }
+img {
+  display: block;
+  margin: 0 auto;
 }
