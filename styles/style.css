@@ -5,7 +5,8 @@
   grid-template-areas: ". . . Name-Space Name-Space Home Publications Projects Portfolio Publicity . ." ". . . Photo Photo Main-Body Main-Body Main-Body Main-Body Main-Body . ." ". . . Footer Footer Footer Footer . . . . .";
 }
 
-.Name-Space { grid-area: Name-Space; }
+.Name-Space { grid-area: Name-Space;
+  margin-top: 25px; }
 
 .Photo { grid-area: Photo; }
 
@@ -13,15 +14,20 @@
 
 .Footer { grid-area: Footer; }
 
-.Home { grid-area: Home; }
+.Home { grid-area: Home;
+  margin-top: 25px; }
 
-.Publications { grid-area: Publications; }
+.Publications { grid-area: Publications; 
+  margin-top: 25px; }
 
-.Projects { grid-area: Projects; }
+.Projects { grid-area: Projects; 
+  margin-top: 25px; }
 
-.Portfolio { grid-area: Portfolio; }
+.Portfolio { grid-area: Portfolio; 
+  margin-top: 25px; }
 
-.Publicity { grid-area: Publicity; }
+.Publicity { grid-area: Publicity; 
+  margin-top: 25px; }
 
 body {
   font-family: Helvetica, Geneva, Arial,
