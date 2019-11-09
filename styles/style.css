@@ -22,3 +22,12 @@
 .Portfolio { grid-area: Portfolio; }
 
 .Publicity { grid-area: Publicity; }
+
+body {
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: black;
+    background-color: #f5f5dc }
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
