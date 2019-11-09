@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.5fr 1.5fr 1fr;
-  grid-template-areas: ". Name-Space Name-Space Home Publications Projects Portfolio Publicity" ". Photo Photo Main-Body Main-Body Main-Body Main-Body Main-Body Main-Body" ". Footer Footer Footer Footer . . . .";
+  grid-template-areas: ". Name-Space Name-Space Home Publications Projects Portfolio Publicity ." ". Photo Photo Main-Body Main-Body Main-Body Main-Body Main-Body ." ". Footer Footer Footer Footer . . . .";
 }
 
 .Name-Space { grid-area: Name-Space; }
@@ -27,11 +27,11 @@ body {
     font-family: Georgia, "Times New Roman",
           Times, serif;
     color: black;
-    background-color: #f5f5dc }
+    background-color: #ffffff }
   h1 {
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif;
-    font-size: 32px }
+    font-size: 40px }
   h2 {
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif;
