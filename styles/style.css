@@ -13,7 +13,9 @@
 
 .Main-Body { grid-area: Main-Body; }
 
-.Footer { grid-area: Footer; }
+.Footer { grid-area: Footer; 
+  border-top-style: solid;
+  border-color: red }
 
 .Home { grid-area: Home;
   margin-top: 25px; }
@@ -49,7 +51,5 @@ footer {
   font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif;
   color: black;
-  font-size:13px;
-  border-top-style: solid;
-  border-color: red }
+  font-size:13px }
 
