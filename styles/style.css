@@ -32,12 +32,12 @@ body {
 h1 {
   font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif;
-  font-size: 40px;
-  line-height: 0pt }
+  font-size:40px }
 h2 {
   font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif;
-  font-size:15px }
+  font-size:15px;
+  line-height:0pt }
 footer {
   font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif;
