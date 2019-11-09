@@ -24,9 +24,10 @@
 .Publicity { grid-area: Publicity; }
 
 body {
-    font-family: Georgia, "Times New Roman",
-          Times, serif;
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
     color: black;
+  font-size:14px}
     background-color: #ffffff }
   h1 {
     font-family: Helvetica, Geneva, Arial,
