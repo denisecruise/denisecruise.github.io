@@ -43,5 +43,7 @@ footer {
   font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif;
   color: black;
-  font-size:13px; }
+  font-size:13px
+  border-top-style: solid;
+  border-color: red }
 
