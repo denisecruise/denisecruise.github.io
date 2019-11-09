@@ -1,9 +1,8 @@
-
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.5fr 1.5fr 1fr;
-  grid-template-areas: "Name-Space Name-Space Name-Space . . . . . ." "Photo Photo Main-Body Main-Body Main-Body Main-Body Main-Body Main-Body Main-Body" "Footer Footer Footer Footer Footer . . . .";
+  grid-template-areas: "Name-Space Name-Space Name-Space . Home Publications Projects Portfolio Publicity" "Photo Photo Main-Body Main-Body Main-Body Main-Body Main-Body Main-Body Main-Body" "Footer Footer Footer Footer Footer . . . .";
 }
 
 .Name-Space { grid-area: Name-Space; }
@@ -14,44 +13,12 @@
 
 .Footer { grid-area: Footer; }
 
-html {
-  font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
-}
+.Home { grid-area: Home; }
 
+.Publications { grid-area: Publications; }
 
-h1 {
-  font-size: 60px;
-  text-align: center;
-}
+.Projects { grid-area: Projects; }
 
-p, li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-}
+.Portfolio { grid-area: Portfolio; }
 
-
-html {
-  background-color: #f5f5dc;
-}
-
-body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #f5f5dc;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
-}
-
-h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #00539F;
-  text-shadow: 3px 3px 1px black;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
-}
+.Publicity { grid-area: Publicity; }
