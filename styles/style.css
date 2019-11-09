@@ -30,4 +30,9 @@ body {
     background-color: #f5f5dc }
   h1 {
     font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
+          SunSans-Regular, sans-serif;
+    font-size: 32px }
+  h2 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
+    font-size:15px }
