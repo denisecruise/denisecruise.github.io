@@ -33,7 +33,8 @@ h1 {
   font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif;
   font-size:40px;
-  line-height:40pt }
+  line-height:40pt;
+  vertical-align: text-top }
 h2 {
   font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif;
