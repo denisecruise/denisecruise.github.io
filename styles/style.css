@@ -1,7 +1,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 2fr 8fr 1fr;
+  grid-template-rows: 2fr 6fr 1fr;
   grid-template-areas: ". . . Name-Space Name-Space Home Publications Projects Portfolio Publicity . ." ". . . Photo Photo Main-Body Main-Body Main-Body Main-Body Main-Body . ." ". . . Footer Footer Footer Footer . . . . .";
 }
 
