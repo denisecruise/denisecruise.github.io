@@ -1,4 +1,19 @@
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1.5fr 1fr;
+  grid-template-areas: "Name-Space Name-Space Name-Space . . . . . ." "Photo Photo Main-Body Main-Body Main-Body Main-Body Main-Body Main-Body Main-Body" "Footer Footer Footer Footer Footer . . . .";
+}
+
+.Name-Space { grid-area: Name-Space; }
+
+.Photo { grid-area: Photo; }
+
+.Main-Body { grid-area: Main-Body; }
+
+.Footer { grid-area: Footer; }
+
 html {
   font-size: 10px;
   font-family: 'Open Sans', sans-serif;
