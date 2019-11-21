@@ -1,25 +1,17 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 1fr;
-  grid-template-areas: ". . . Name-Space Name-Space Home Publications Projects Portfolio Publicity . ." ". . . Journal-Title Journal-Title Journal-Title Journal-Title Journal-Title Journal-Title Journal-Title . ." ". . . Photo Journal-Pub Journal-Pub Journal-Pub Journal-Pub Journal-Pub Journal-Pub . ." ". . . Conf-Title Conf-Title Conf-Title Conf-Title Conf-Title Conf-Title Conf-Title . ." ". . . Photo Conf-Pub Conf-Pub Conf-Pub Conf-Pub Conf-Pub Conf-Pub . ." ". . . Footer Footer Footer Footer Footer Footer Footer Footer .";
+  grid-template-rows: 2fr 6fr 1fr;
+  grid-template-areas: ". . . Name-Space Name-Space Home Publications Projects Portfolio Publicity . ." ". . . Photo Photo Main-Body Main-Body Main-Body Main-Body Main-Body . ." ". . . Footer Footer Footer Footer Footer Footer Footer Footer .";
 }
 
 .Name-Space { grid-area: Name-Space;
   margin-top: 0px; 
   vertical-align: text-top }
 
-.Journal-Title { grid-area: Journal-Title; }
+.Photo { grid-area: Photo; }
 
-.Journal-Pub { grid-area: Journal-Pub; 
-  border-bottom-style: solid;
-  border-color: grey }
-
-.Conf-Title { grid-area: Conf-Title; }
-
-.Conf-Pub { grid-area: Conf-Pub; 
-  border-bottom-style: solid;
-  border-color: grey }
+.Main-Body { grid-area: Main-Body; }
 
 .Footer { grid-area: Footer; 
   border-top-style: solid;
