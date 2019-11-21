@@ -1,8 +1,14 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 2fr 6fr 1fr;
-  grid-template-areas: ". . . Name-Space Name-Space Home Publications Projects Portfolio Publicity . ." ". . . Main-Body Main-Body Main-Body Main-Body Main-Body Main-Body Main-Body . ." ". . . Footer Footer Footer Footer Footer Footer Footer Footer .";
+  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 1fr;
+  grid-template-areas: ". . . Name-Space Name-Space Home Publications Projects Portfolio Publicity . ." 
+    ". . . Main-Body Main-Body Main-Body Main-Body Main-Body Main-Body Main-Body . ." 
+    ". . . Photo Journal-Pub Journal-Pub Journal-Pub Journal-Pub Journal-Pub Journal-Pub . ."
+    ". . . Photo Journal-Pub Journal-Pub Journal-Pub Journal-Pub Journal-Pub Journal-Pub . ."
+    ". . . Main-Body Main-Body Main-Body Main-Body Main-Body Main-Body Main-Body . ." 
+    ". . . Photo Conf-Pub Conf-Pub Conf-Pub Conf-Pub Conf-Pub Conf-Pub . ."
+    ". . . Footer Footer Footer Footer Footer Footer Footer Footer .";
 }
 
 .Name-Space { grid-area: Name-Space;
@@ -10,6 +16,14 @@
   vertical-align: text-top }
 
 .Main-Body { grid-area: Main-Body; }
+
+.Journal-Pub { grid-area: Journal-Pub; 
+  border-bottom-style: solid;
+  border-color: grey }
+
+.Conf-Pub { grid-area: Conf-Pub; 
+  border-bottom-style: solid;
+  border-color: grey }
 
 .Footer { grid-area: Footer; 
   border-top-style: solid;
