@@ -2,12 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 2fr 2fr 2fr 2fr 2fr 1fr;
-  grid-template-areas: ". . . Name-Space Name-Space Home Publications Projects Portfolio Publicity . ." 
-    ". . . Journal-Title Journal-Title Journal-Title Journal-Title Journal-Title Journal-Title Journal-Title . ." 
-    ". . . Photo Journal-Pub Journal-Pub Journal-Pub Journal-Pub Journal-Pub Journal-Pub . ."
-    ". . . Conf-Title Conf-Title Conf-Title Conf-Title Conf-Title Conf-Title Conf-Title . ." 
-    ". . . Photo Conf-Pub Conf-Pub Conf-Pub Conf-Pub Conf-Pub Conf-Pub . ."
-    ". . . Footer Footer Footer Footer Footer Footer Footer Footer .";
+  grid-template-areas: ". . . Name-Space Name-Space Home Publications Projects Portfolio Publicity . ." ". . . Journal-Title Journal-Title Journal-Title Journal-Title Journal-Title Journal-Title Journal-Title . ." ". . . Photo Journal-Pub Journal-Pub Journal-Pub Journal-Pub Journal-Pub Journal-Pub . ." ". . . Conf-Title Conf-Title Conf-Title Conf-Title Conf-Title Conf-Title Conf-Title . ." ". . . Photo Conf-Pub Conf-Pub Conf-Pub Conf-Pub Conf-Pub Conf-Pub . ." ". . . Footer Footer Footer Footer Footer Footer Footer Footer .";
 }
 
 .Name-Space { grid-area: Name-Space;
