@@ -12,6 +12,7 @@
 .Photo { grid-area: Photo; }
 
 .Main-Body { grid-area: Main-Body; 
+  margin-top: 0px;
   vertical-align: text-top}
 
 .Footer { grid-area: Footer; 
