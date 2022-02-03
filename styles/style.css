@@ -15,7 +15,7 @@
 
 .Footer { grid-area: Footer; 
   border-top-style: solid;
-  border-color: red }
+  border-color: blue }
 
 .Home { grid-area: Home;
   margin-top: 25px; }
